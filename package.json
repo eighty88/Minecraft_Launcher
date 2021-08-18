@@ -4,7 +4,6 @@
   "main": "index.js",
   "repository": "https://github.com/eighty88/Minecraft_Launcher.git",
   "author": "eight_y_88 <jadec.eight@gmail.com>",
-  "license": "Apache Licence 2.0",
   "private": false,
   "dependencies": {
     "@types/node": "^16.6.1",
