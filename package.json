@@ -8,7 +8,13 @@
   "private": false,
   "dependencies": {
     "@types/node": "^16.6.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "ts-node": "^10.2.0",
     "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.18",
+    "@types/react-dom": "^17.0.9"
   }
 }
