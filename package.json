@@ -5,6 +5,13 @@
   "repository": "https://github.com/eighty88/Minecraft_Launcher.git",
   "author": "eight_y_88 <jadec.eight@gmail.com>",
   "private": false,
+  "scripts": {
+    "predev": "rimraf dist",
+    "dev": "run-p dev:*",
+    "dev:electron": "wait-on ./dist/index.html && cross-env NODE_ENV=\"development\" electron .",
+    "dev:tsc": "tsc -w -p tsconfig.main.json",
+    "dev:webpack": "webpack --watch"
+  },
   "dependencies": {
     "@types/node": "^16.6.1",
     "react": "^17.0.2",
